@@ -17,7 +17,7 @@ $(document).ready(function() {
 	function ren() {
 		// render the page -- in case you're wondering, 
 		// nothing will work without javascript!
-		$("#tit").html('<font face="Garamond"><h1>&nbsp;&nbsp;<i>sleepyti.me <font color="#33CC33">beta 3</font></i></h1></font>');
+		$("#tit").html('<font face="Garamond"><h1>&nbsp;&nbsp;<i>sleepyti.me <font color="lightblue">bedtime calculator</font></i></h1></font>');
 		var mrend = '';
 		mrend = mrend +
 		'<table><tr width="100%">' +
@@ -182,7 +182,6 @@ $(document).ready(function() {
 			}	
 		}
 		r = r + '</h2></font><p>A good night\'s sleep consists of 5-6 complete sleep cycles.</p>';
-		r = r + '<center><a href="index.html"><h3>back</h3></a></center>';
 		return r;
 	}
 
@@ -282,7 +281,6 @@ $(document).ready(function() {
 		
 		txt = txt + '<br/><br/><font color="#0080FF">Please keep in mind that you should be <i>falling asleep</i> at these times.<br/><br/> The average adult human takes <b>fourteen minutes</b> to fall asleep, so plan accordingly!</font>';
 		txt = txt + '<br/></br><font color="#9966CC">sleepyti.me works by counting backwards in <b>sleep cycles</b>. Sleep cycles typically last <b>90 minutes</b>.<br/><br/>Waking up in the middle of a sleep cycle leaves you feeling tired and groggy, but waking up <i>in between</i> cycles lets you wake up feeling refreshed and alert!</font>';
-		txt = txt + '<br/><br/><center><a href="index.html"><h3>back</h3></a></center>';
 		$('#main').hide();
 		$('#instant').html(txt)
 		$('#instant').show(500)
@@ -322,7 +320,7 @@ $(document).ready(function() {
 <div id="main"></div>
 <div id="instant" style="display:none;"></div>
 <div id="amazon" style="display:none;" align="center" valign="bottom">
-<hr color="#CCCCCC" width="30%"><font face="Garamond" size=5 color="#666666"><i>Sleepyti.me is provided as a free service thanks to support from our ads.<br/><br/>
+<br/><br/><hr color="#CCCCCC" width="30%"><font face="Garamond" size=5 color="#666666"><i>Sleepyti.me is provided as a free service thanks to support from our ads.<br/><br/>
 
 <script type="text/javascript"><!--
 google_ad_client = "ca-pub-7082199327067068";
@@ -335,12 +333,16 @@ google_ad_height = 90;
 <script type="text/javascript"
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
+
+<br/><a href="http://sleepyti.me"><center><h3>back</h3></center></a>
+
 </div>
 <div id="fb">
 <hr color="white">
 <hr color="white">
 <hr color="white">
 <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsleepyti.me&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+
 </div>
 </body>
 </html>
