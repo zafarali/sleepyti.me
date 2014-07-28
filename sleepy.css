@@ -46,7 +46,12 @@ main div{
 	visibility: visible;
 }
 .fadeable{
+	margin-top: -25px;
 	opacity:0;
+}
+.big-button{
+	font-size: 0.5em;
+	padding:5px 15px;
 }
 select{
 	font-size:10em;
