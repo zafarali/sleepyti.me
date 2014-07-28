@@ -37,8 +37,22 @@ main div{
 .offwhite2{
 	background-color: #ECF0F1;
 }
-
-
+.invisible{
+	display:none;
+	visibility:hidden;
+}
+.visible{
+	display:block;
+	visibility: visible;
+}
+.fadeable{
+	opacity:0;
+}
+select{
+	font-size:10em;
+	width: 75px;
+}
 footer{
-	padding-top: 15px
+	padding-top: 15px;
+	margin-bottom:4px;
 }

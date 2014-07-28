@@ -3,6 +3,8 @@
 <head>
 	<title>sleepyti.me bedtime calculator - mobile</title>
 	<script type='text/javascript' src="sleepy.js"></script>
+	<script type='text/javascript' src="jquery.js"></script>
+	<script type='text/javascript' src="animations.js"></script>
 	<link rel="stylesheet" type="text/css" href="sleepy.css">
 </head>
 <body class="full-width text-center">
@@ -12,19 +14,25 @@
 		<span class="accompany-text">bedtime calculator</span>
 	</header>
 
-	<main>
+	<main id="main-container">
 		<div class="offwhite" id="wakeupat">
 		Wake up at...
-
-
+			<div class="invisible fadeable">
+				<span class="injected"></span>
+			</div>
 		</div>
 		<div class="offwhite2" id="sleepat">
 		Sleep at...
-
+			<div class="invisible fadeable">
+			This content is invisible!
+			<span class="injected"></span>
+			</div>
 		</div>
 		<div class="offwhite" id="sleepnow">
-
 		Go to bed now
+			<div class="invisible fadeable">
+			This content is invisible!
+			</div>
 		</div>
 	</main>
 	<footer>
